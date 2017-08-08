@@ -6,10 +6,11 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.x",
     "autoprefixer": "^7.1.2",
-    "bootstrap": "^4.0.0-alpha.6",
     "browser-sync": "^2.18.2",
     "css-mqpacker": "^6.0.1",
     "del": "^3.0.0",
+    "eslint": "^4.4.1",
+    "eslint-plugin-html": "^3.1.1",
     "gulp": "^3.9.1",
     "gulp-csso": "^3.0.0",
     "gulp-imagemin": "^3.1.1",
@@ -35,6 +36,19 @@
     "img/**/*.svg",
     "sass/**/*.{sass,scss}"
   ],
+  "eslintConfig": {
+    "root": true,
+    "extends": [
+      "htmlacademy/es5"
+    ],
+    "plugins": [
+      "html"
+    ],
+    "env": {
+      "browser": true,
+      "node": true
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cognitive-cake/pictor.git"
