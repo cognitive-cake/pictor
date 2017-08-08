@@ -1,2 +1,2 @@
 # pictor
-pictorspb.com site refactoring
+pictor refactoring
