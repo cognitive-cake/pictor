@@ -1,7 +1,7 @@
 {
   "name": "pictor",
   "version": "1.0.0",
-  "description": "pictorspb.com site refactoring",
+  "description": "pictor site refactoring",
   "main": "index.js",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.x",
@@ -10,6 +10,7 @@
     "css-mqpacker": "^6.0.1",
     "del": "^3.0.0",
     "eslint": "^4.4.1",
+    "eslint-config-htmlacademy": "^0.3.0",
     "eslint-plugin-html": "^3.1.1",
     "gulp": "^3.9.1",
     "gulp-csso": "^3.0.0",
