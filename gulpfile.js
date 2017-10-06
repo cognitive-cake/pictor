@@ -1,3 +1,4 @@
+/* eslint-disable */
 'use strict';
 
 var gulp = require('gulp');
@@ -95,15 +96,6 @@ gulp.task('serve', function () {
 
 gulp.task('clean', function () {
   return del('build');
-});
-
-gulp.task('copy-html', function () {
-  return gulp.src([
-    '*.html'
-  ], {
-    base: '.'
-  })
-      .pipe(gulp.dest('build'));
 });
 
 gulp.task('copy', function () {
