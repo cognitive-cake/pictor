@@ -71,6 +71,15 @@ gulp.task('images', function () {
       .pipe(gulp.dest('build/img'));
 });
 
+gulp.task('images-test', function () {
+  return gulp.src('img/**/*.{png,jpg,gif}')
+    .pipe(imagemin([
+      imagemin.optipng({ optimizationLevel: 3 }),
+      imagemin.jpegtran({ progressive: true })
+    ]))
+    .pipe(gulp.dest('img/optimized'));
+});
+
 gulp.task('icon-sprite', function () {
   return gulp.src('build/img/**/icon-*.svg')
       .pipe(svgmin())
