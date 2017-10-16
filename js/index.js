@@ -1,6 +1,4 @@
-'use strict';
+let car = 1;
+car += 1;
+console.log(car);
 
-window.index = (function () {
-  var car = 1;
-  return car;
-});
