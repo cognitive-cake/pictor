@@ -15,4 +15,21 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 body {
-  font-family: "Ubuntu", Arial, sans-serif; }
+  font-family: "Ubuntu", Arial, sans-serif;
+  background-image: url("../img/vintage-concrete.png"); }
+
+.header__contacts {
+  text-align: center;
+  color: #fff;
+  background-image: url("../../img/title-left.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
+
+.header__about {
+  text-align: center;
+  color: #000;
+  background-image: url("../../img/title-right.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
