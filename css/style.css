@@ -16,7 +16,8 @@
 
 body {
   font-family: "Ubuntu", Arial, sans-serif;
-  background-image: url("../img/body_bg/vintage-concrete.png"); }
+  background-image: url("../img/body_bg/vintage-concrete.png");
+  background-color: #E6DAC0; }
 
 .header__contacts {
   text-align: center;
@@ -33,3 +34,15 @@ body {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat; }
+
+.site-navigation {
+  padding-left: 0;
+  padding-right: 0;
+  font-size: 1.2rem;
+  line-height: 2rem; }
+  .site-navigation .navbar {
+    padding: 0; }
+  .site-navigation .navbar-nav {
+    width: 100%; }
+  .site-navigation .nav-link {
+    border-radius: 0; }
