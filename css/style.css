@@ -35,6 +35,9 @@ body {
   background-size: contain;
   background-repeat: no-repeat; }
 
+.main-section .btn-primary {
+  width: 140px; }
+
 .site-navigation {
   padding-left: 0;
   padding-right: 0;
