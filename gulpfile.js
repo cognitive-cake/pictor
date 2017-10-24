@@ -15,6 +15,9 @@ var svgmin = require('gulp-svgmin');
 var svgstore = require('gulp-svgstore');
 var run = require('run-sequence');
 var del = require('del');
+var pug = require('gulp-pug');
+var htmlbeautify = require('gulp-html-beautify');
+
 
 gulp.task('style', function () {
   gulp.src('sass/style.scss')
@@ -88,6 +91,13 @@ gulp.task('icon-sprite', function () {
       }))
       .pipe(rename('icons.svg'))
       .pipe(gulp.dest('build/img'));
+});
+
+gulp.task('pug', function buildHTML() {
+  return gulp.src('pug/*.pug')
+    .pipe(pug())
+    .pipe(htmlbeautify())
+    .pipe(gulp.dest('./'));
 });
 
 gulp.task('serve', function () {
