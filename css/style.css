@@ -35,8 +35,12 @@ body {
   background-size: contain;
   background-repeat: no-repeat; }
 
-.main-section .btn-primary {
-  width: 140px; }
+.main-section {
+  padding-top: 50px; }
+  .main-section__title {
+    font-size: 21px; }
+  .main-section .btn-primary {
+    width: 140px; }
 
 .site-navigation {
   padding-left: 0;

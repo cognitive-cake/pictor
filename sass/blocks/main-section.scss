@@ -1,4 +1,9 @@
 .main-section {
+  padding-top: 50px;
+
+  &__title {
+    font-size: 21px;
+  }
 
   &  .btn-primary {
     width: 140px;
