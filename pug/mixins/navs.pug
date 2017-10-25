@@ -2,13 +2,31 @@ mixin navs(currNav)
   case currNav
     when 'index'
       li.nav-item
-        a.nav-link(href='#')
+        a.nav-link.active(href='#')
           | Главная
           span.sr-only (текущая)
       li.nav-item
         a.nav-link(href='about-us.html') О нас
       li.nav-item
         a.nav-link(href='contacts.html') Контакты
+    when 'about-us'
+      li.nav-item
+        a.nav-link(href='index.html') Главная
+      li.nav-item
+        a.nav-link.active(href='#')
+          | О нас
+          span.sr-only (текущая)
+      li.nav-item
+        a.nav-link(href='contacts.html') Контакты
+    when 'contacts'
+      li.nav-item
+        a.nav-link(href='index.html') Главная
+      li.nav-item
+        a.nav-link(href='about-us.html') О нас
+      li.nav-item
+        a.nav-link.active(href='#')
+          | Контакты
+          span.sr-only (текущая)
     default
       li.nav-item
         a.nav-link(href='#') Главная
