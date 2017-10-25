@@ -1,0 +1,18 @@
+mixin navs(currNav)
+  case currNav
+    when 'index'
+      li.nav-item
+        a.nav-link(href='#')
+          | Главная
+          span.sr-only (текущая)
+      li.nav-item
+        a.nav-link(href='about-us.html') О нас
+      li.nav-item
+        a.nav-link(href='contacts.html') Контакты
+    default
+      li.nav-item
+        a.nav-link(href='#') Главная
+      li.nav-item
+        a.nav-link(href='#') О нас
+      li.nav-item
+        a.nav-link(href='#') Контакты
