@@ -14,16 +14,8 @@
   <header class="header">
     <div class="container">
       <div class="row">
-        <div class="col-md d-flex flex-column justify-content-center header__contacts"><address><abbr title="Телефон"><strong>Тел.:</strong></abbr>
-<br>+79313483826
-<br>+79213009822
-<br>
-</address><address><strong>Адрес:</strong>
-<br>Санкт-Петербург
-<br>Октябрьская набережная д.50
-<br>
-</address></div>
-        <div class="col-md"><img class="mx-auto d-block" src="img/logo.png" alt="Pictor"></div>
+        <div class="col-md d-flex flex-column justify-content-center header__contacts"><address><abbr title="Телефон"><strong>Тел.:</strong></abbr><br>+79313483826<br>+79213009822<br></address><address><strong>Адрес:</strong><br>Санкт-Петербург<br>Октябрьская набережная д.50</address></div>
+        <div class="col-md"><a href="index.html"><img class="mx-auto d-block" src="img/logo.png" alt="Pictor"></a></div>
         <div class="col-md d-flex flex-column justify-content-center header__about">
           <p>Профессиональная покраска мдф, шпон, массив.
             <br>Изготовление мдф фасадов.</p>
@@ -32,8 +24,7 @@
     </div>
     <div class="container-fluid site-navigation bg-dark">
       <div class="container px-0">
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark"><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
           <div
             class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav nav-pills nav-justified w-100">
@@ -49,10 +40,19 @@
   <div class="container bg-semitransparent p-4">
     <div class="row">
       <div class="col-md-6">
-        <h4>Свяжитесь с нами</h4>
+        <h1 class="h3 mb-4">Свяжитесь с нами</h1>
+        <h2 class="h5 m-0">Покраска, изготовление, реставрация.</h2><address class="mb-3">Почта:<a href="mailto:mail@pictorspb.com">
+mail@pictorspb.com</a><br>Октябрьская набережная, 50а</address><address class="mb-4"><address><abbr title="Телефон"><strong>Тел.:</strong></abbr><br>+79313483826<br>+79213009822</address></address>
+        <form action="#" method="post" name="feedback">
+          <div class="form-group mb-2"><input class="form-control bg-dark text-white" id="nameInput" type="text" name="name" placeholder="Имя" required></div>
+          <div class="form-group mb-2"><input class="form-control bg-dark text-white" id="emailInput" type="email" name="email" placeholder="Email" required></div>
+          <div class="form-group mb-2"><input class="form-control bg-dark text-white" id="headerInput" type="text" name="header" placeholder="Тема" required></div>
+          <div class="form-group"><textarea class="form-control bg-dark text-white" id="messageArea" name="message" rows="5" style="min-height: 100px; max-height: 350px;" minlength="20" maxlength="200" placeholder="Ваше сообщение" required></textarea></div>
+          <div class="form-group"><button class="btn btn-primary" type="submit">Отправить</button></div>
+        </form>
       </div>
-      <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2001.618484207559!2d30.44799431609497!3d59.88868298185804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962fb31c2ed849%3A0xf493a13a96a1ebb6!2z0J7QutGC0Y_QsdGA0YzRgdC60LDRjyDQvdCw0LEuLCA1MCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MzIzMA!5e0!3m2!1sru!2sru!4v1509030274183"
-          width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" scrolling="off"></iframe></div>
+      <div class="col-md-6 map-frame"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d16012.94786491774!2d30.434862222696214!3d59.88868299999999!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46962fb31c2ed849%3A0xf493a13a96a1ebb6!2z0J7QutGC0Y_QsdGA0YzRgdC60LDRjyDQvdCw0LEuLCA1MCwg0KHQsNC90LrRgi3Qn9C10YLQtdGA0LHRg9GA0LMsIDE5MzIzMA!5e0!3m2!1sru!2sru!4v1509043136092"
+          width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" scrolling="off"></iframe></div>
     </div>
   </div>
   <footer class="container-fluid bg-dark">

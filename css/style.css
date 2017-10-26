@@ -38,12 +38,15 @@ body {
   background-size: contain;
   background-repeat: no-repeat; }
 
-.main-section {
+.main-content-index {
   padding-top: 50px; }
-  .main-section__title {
+  .main-content-index__title {
     font-size: 21px; }
-  .main-section .btn-primary {
+  .main-content-index .btn-primary {
     width: 140px; }
+
+.map-frame {
+  min-height: 400px; }
 
 .site-navigation {
   padding-left: 0;
