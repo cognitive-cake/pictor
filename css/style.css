@@ -19,7 +19,7 @@ body {
   background-image: url("../img/body_bg/vintage-concrete.png");
   background-color: #E6DAC0; }
 
-.about-us {
+.bg-semitransparent {
   background-color: rgba(255, 255, 255, 0.4); }
 
 .header__contacts {
