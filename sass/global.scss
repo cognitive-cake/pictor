@@ -21,7 +21,13 @@
 body {
   font-family: "Ubuntu", Arial, sans-serif;
 
-  background-image: url("../img/body_bg/vintage-concrete.png");
+  background-image: url("../img/body_bg/retina_wood.png");
   background-color: #E6DAC0;
+}
 
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  body {
+    background-image: url("../img/body_bg/retina_wood_@2X.png");
+  }
 }
