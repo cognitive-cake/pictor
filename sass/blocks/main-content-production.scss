@@ -1,0 +1,11 @@
+.main-content-production {
+  padding-top: 50px;
+
+  & .btn-primary {
+    width: 160px;
+  }
+
+  &__price-btn.btn-primary {
+    width: 230px;
+  }
+}

@@ -45,6 +45,13 @@ body {
   .main-content-index .btn-primary {
     width: 140px; }
 
+.main-content-production {
+  padding-top: 50px; }
+  .main-content-production .btn-primary {
+    width: 160px; }
+  .main-content-production__price-btn.btn-primary {
+    width: 230px; }
+
 .map-frame {
   min-height: 400px; }
 
