@@ -18,7 +18,9 @@ header.header
           | Октябрьская набережная д.50
       .col-md
         a(href='index.html')
-          img.mx-auto.d-block(src='img/logo.png', alt='Pictor')
+          picture
+            source(srcset='img/logo@1x.png, img/logo@2x.png 2x')
+            img.mx-auto.d-block(src='img/logo@1x.png', alt='Pictor')
       .col-md.d-flex.flex-column.justify-content-center.header__about
         p
           | Профессиональная покраска мдф, шпон, массив.
