@@ -1,7 +1,7 @@
-header.header
-  .container
+header.header.d-flex.flex-column.d-md-block
+  .container.order-2
     .row
-      .col-md.d-flex.flex-column.justify-content-center.header__contacts
+      .col-md.d-none.d-md-flex.flex-column.justify-content-center.header__contacts
         address
           abbr(title='Телефон')
             strong Тел.:
@@ -21,13 +21,13 @@ header.header
           picture
             source(srcset='img/logo@1x.png, img/logo@2x.png 2x')
             img.mx-auto.d-block(src='img/logo@1x.png', alt='Pictor')
-      .col-md.d-flex.flex-column.justify-content-center.header__about
+      .col-md.d-none.d-md-flex.flex-column.justify-content-center.header__about
         p
           | Профессиональная покраска мдф, шпон, массив.
           |
           br
           | Изготовление мдф фасадов.
-  .container-fluid.site-navigation.bg-dark
+  .container-fluid.site-navigation.bg-dark.order-1
     .container.px-0
       nav.navbar.navbar-expand-md.navbar-dark.bg-dark
         button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarSupportedContent', aria-controls='navbarSupportedContent', aria-expanded='false', aria-label='Toggle navigation')
