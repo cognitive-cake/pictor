@@ -1,8 +1,16 @@
 .main-content-index {
   padding-top: 50px;
 
+  & .col-md-4 {
+    margin-bottom: 75px;
+  }
+
   &__title {
-    font-size: 21px;
+    min-width: 180px;
+    max-width: 240px;
+    line-height: 1.4;
+    border-radius: .25rem;
+
   }
 
   &  .btn-primary {
