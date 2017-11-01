@@ -63,7 +63,12 @@ body {
   .site-navigation .navbar {
     padding: 0; }
   .site-navigation .nav-link {
-    border-radius: 0; }
-  @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    border-radius: 0;
+    transition-property: background-color;
+    transition-duration: 0.4s;
+    transition-timing-function: ease; }
+    .site-navigation .nav-link:hover {
+      background-color: #007bff; }
+    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   body {
     background-image: url("../img/body_bg/retina_wood_@2X.png"); } }
