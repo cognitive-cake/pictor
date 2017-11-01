@@ -22,6 +22,10 @@ body {
 .bg-semitransparent {
   background-color: rgba(255, 255, 255, 0.4); }
 
+.header__top-row {
+  margin-left: -15px;
+  margin-right: -15px; }
+
 .header__contacts {
   text-align: center;
   color: #fff;
