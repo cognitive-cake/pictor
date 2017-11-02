@@ -78,6 +78,9 @@ body {
 .table thead th {
   vertical-align: middle; }
 
+.table td {
+  vertical-align: middle; }
+
 @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   body {
     background-image: url("../img/body_bg/retina_wood_@2X.png"); } }
