@@ -74,6 +74,10 @@ body {
     transition-timing-function: ease; }
     .site-navigation .nav-link:hover {
       background-color: #007bff; }
-    @media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+
+.table thead th {
+  vertical-align: middle; }
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
   body {
     background-image: url("../img/body_bg/retina_wood_@2X.png"); } }
