@@ -20,19 +20,34 @@ main.container.bg-semitransparent.p-4
       Собственное производство.
     li.
       Каждого порадует возможность обсудить детали изготовления фасадов и внести коррективы в форму и другие параметры мебельных деталей.
-  span Цена изготовления (за 1 кв.м.)
-  ul
-    li Матовые фасады - от 3000 руб.
-    li Глянцевые фасады - от 5200 руб.
-    li Спецэффекты - от 5200 руб.
+  table.table.table-bordered.table-striped.bg-warning
+    caption Цены на изготовление плоских фасадов
+    thead
+      tr(scope='row')
+        th(scope='col') #
+        th(scope='col') Виды работ
+        th(scope='col') Цена от (рублей за квадратный метр)
+    tbody
+      tr(scope='row')
+        td 1
+        td Матовые фасады
+        td 3000 &#x20BD;
+      tr(scope='row')
+        td 2
+        td Глянцевые фасады
+        td 5200 &#x20BD;
+      tr(scope='row')
+        td 3
+        td Спецэффекты
+        td 5200 &#x20BD;
   h2 Примеры мебели с крашенными фасадами:
-  .row.mb-4
-    .col-md-6
+  .row
+    .col-md-6.mb-4
       img.img-fluid.rounded.mx-auto.d-block(src='img/flat-01.jpg', alt='Пример плоских фасадов')
-    .col-md-6
+    .col-md-6.mb-4
       img.img-fluid.rounded.mx-auto.d-block(src='img/flat-02.jpg', alt='Пример плоских фасадов')
   .row
-    .col-md-6
+    .col-md-6.mb-4
       img.img-fluid.rounded.mx-auto.d-block(src='img/flat-03.jpg', alt='Пример плоских фасадов')
-    .col-md-6
+    .col-md-6.mb-4
       img.img-fluid.rounded.mx-auto.d-block(src='img/flat-04.jpg', alt='Пример плоских фасадов')
